@@ -1,0 +1,13 @@
+{
+  "name": "@scratch-next/scratch-gui",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "dev": "next dev"
+  },
+  "devDependencies": {
+    "next": "^14.0.4",
+    "react-dom": "^18.2.0"
+  }
+}

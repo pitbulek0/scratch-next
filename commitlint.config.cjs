@@ -8,7 +8,8 @@ module.exports = {
       "always",
       [
         // Add apps here:
-
+        "scratch-gui",
+        
         // Add configurations here:
 
         // Add packages here:
