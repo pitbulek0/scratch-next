@@ -8,3 +8,6 @@
 
 # local env files
 .env*.local
+
+# misc
+.DS_Store
