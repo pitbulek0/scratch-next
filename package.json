@@ -1,5 +1,6 @@
 {
   "name": "scratch-next",
+  "type": "module",
   "scripts": {
     "prepare": "husky install",
 

@@ -1,6 +1,7 @@
 {
   "name": "@scratch-next/scratch-gui",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "build": "next build",
     "start": "next start",
