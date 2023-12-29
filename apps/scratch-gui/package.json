@@ -6,7 +6,7 @@
     "start": "next start",
     "dev": "next dev"
   },
-  "devDependencies": {
+  "dependencies": {
     "next": "^14.0.4",
     "react-dom": "^18.2.0"
   }
