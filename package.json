@@ -1,11 +1,12 @@
 {
   "name": "scratch-next",
-  "version": "1.0.0",
   "scripts": {
     "prepare": "husky install",
-    "build": "pnpm --filter=scratch-gui run build",
-    "start": "pnpm --filter=scratch-gui run start",
-    "dev": "pnpm --filter=scratch-gui run dev",
+
+    "build": "pnpm --filter=scratch-gui build",
+    "start": "pnpm --filter=scratch-gui start",
+    "dev": "pnpm --filter=scratch-gui dev",
+    
     "commit": "commit"
   },
   "dependencies": {

@@ -48,9 +48,14 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
     devDependencies:
+      '@scratch-next/config-ts':
+        specifier: workspace:^
+        version: link:../../configurations/config-ts
       '@types/react-dom':
         specifier: ^18.2.18
         version: 18.2.18
+
+  configurations/config-ts: {}
 
 packages:
 
