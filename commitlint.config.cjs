@@ -11,6 +11,7 @@ module.exports = {
         "scratch-gui",
         
         // Add configurations here:
+        "config-ts",
 
         // Add packages here:
       ],
