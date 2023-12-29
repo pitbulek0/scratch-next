@@ -1,12 +1,6 @@
 {
-  "extends": "@scratch-next/config-ts/tsconfig.base.json",
+  "extends": "@scratch-next/config-ts/nextjs.json",
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
     "paths": {
       "~/*": ["./src/*"]
     }

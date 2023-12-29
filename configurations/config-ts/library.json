@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Library",
+  "compilerOptions": {
+    "lib": ["ES7"],
+    "target": "ES6",
+    "moduleResolution": "NodeNext",
+    "declaration": true,
+    "declarationMap": true
+  }
+}
