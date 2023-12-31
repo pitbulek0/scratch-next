@@ -1,5 +1,5 @@
 /** @type {import('@commitlint/types').UserConfig} */
-export default {
+const Config = {
   extends: ['@commitlint/config-conventional'],
   ignores: [commit => commit.includes('[skip ci]')],
   rules: {
@@ -20,3 +20,5 @@ export default {
     ],
   },
 };
+
+export default Config;

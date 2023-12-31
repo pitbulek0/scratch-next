@@ -1,6 +1,5 @@
 {
   "name": "@scratch-next/config-prettier",
   "type": "module",
-  "main": "./prettier.config.js",
-  "prettier": "./prettier.config.js"
+  "main": "./prettier.config.js"
 }
