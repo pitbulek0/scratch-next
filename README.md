@@ -26,5 +26,6 @@ pnpm dev
 pnpm lint:[package-name]
 
 # Misc
+pnpm format # formats code using prettier
 pnpm commit # commitlint prompt
 ```
