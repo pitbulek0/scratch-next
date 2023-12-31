@@ -10,6 +10,12 @@
     "format": "prettier --write \"**/*.{js,cjs,mjs,jsx,ts,tsx,md,json,css,yaml}\"",
     "commit": "commit"
   },
+  "author": "pitbulek0",
+  "license": "MIT",
+  "homepage": "https://github.com/pitbulek0/scratch-next#README",
+  "repository": {
+    "url": "https://github.com/pitbulek0/scratch-next.git"
+  },
   "dependencies": {
     "react": "^18.2.0"
   },
