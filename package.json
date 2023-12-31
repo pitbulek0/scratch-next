@@ -3,10 +3,12 @@
   "type": "module",
   "scripts": {
     "prepare": "husky install",
+
     "build": "pnpm --filter=scratch-gui build",
     "start": "pnpm --filter=scratch-gui start",
     "dev": "pnpm --filter=scratch-gui dev",
-    "lint": "pnpm --filter=scratch-gui lint",
+    "lint:scratch-gui": "pnpm --filter=scratch-gui lint",
+    
     "commit": "commit"
   },
   "dependencies": {
@@ -17,6 +19,7 @@
     "@commitlint/config-conventional": "^18.4.3",
     "@commitlint/prompt-cli": "^18.4.3",
     "@commitlint/types": "^18.4.3",
+    "@types/eslint": "^8.56.0",
     "@types/node": "^20.10.5",
     "@types/react": "^18.2.46",
     "eslint": "^8.56.0",

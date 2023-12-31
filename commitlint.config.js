@@ -11,6 +11,7 @@ export default {
         "scratch-gui",
         
         // Add configurations here:
+        "config-eslint",
         "config-ts",
 
         // Add packages here:

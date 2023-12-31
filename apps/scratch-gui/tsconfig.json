@@ -1,5 +1,5 @@
 {
-  "extends": "@scratch-next/config-ts/nextjs.json",
+  "extends": "@scratch-next/config-ts/tsconfig.next.json",
   "compilerOptions": {
     "paths": {
       "~/*": ["./src/*"]
