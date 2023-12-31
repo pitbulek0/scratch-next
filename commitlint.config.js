@@ -1,18 +1,19 @@
 /** @type {import('@commitlint/types').UserConfig} */
 export default {
-  extends: ["@commitlint/config-conventional"],
-  ignores: [commit => commit.includes("[skip ci]")],
+  extends: ['@commitlint/config-conventional'],
+  ignores: [commit => commit.includes('[skip ci]')],
   rules: {
-    "scope-enum": [
+    'scope-enum': [
       2,
-      "always",
+      'always',
       [
         // Add apps here:
-        "scratch-gui",
-        
+        'scratch-gui',
+
         // Add configurations here:
-        "config-eslint",
-        "config-ts",
+        'config-prettier',
+        'config-eslint',
+        'config-ts',
 
         // Add packages here:
       ],

@@ -1,6 +1,7 @@
 # scratch-next
 
 ## -- Instalation --
+
 ```bash
 # Clone scratch-next monorepo
 git clone https://github.com/pitbulek0/scratch-next.git
@@ -12,6 +13,7 @@ pnpm install
 ```
 
 ## -- Development --
+
 ```bash
 # Build
 pnpm build

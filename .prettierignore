@@ -1,0 +1,9 @@
+# NodeJS
+**/node_modules
+
+# pnpm
+**/pnpm-lock.yaml
+
+# NextJS
+**/.next
+**/next-env.d.ts
