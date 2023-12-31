@@ -6,6 +6,6 @@
     "lib": ["DOM", "DOM.Iterable", "ES6"],
     "target": "ES5",
     "moduleResolution": "Bundler",
-    "plugins": [{"name": "next"}]
+    "plugins": [{ "name": "next" }]
   }
 }
