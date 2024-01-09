@@ -1,5 +1,8 @@
 {
   "name": "@scratch-next/config-prettier",
   "type": "module",
-  "main": "./prettier.config.js"
+  "main": "./prettier.config.js",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.10"
+  }
 }
